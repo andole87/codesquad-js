@@ -48,7 +48,7 @@ module.exports = class Square {
     }
 };
 ```
-한 파일이 node.js로부터 직접 실행되면, requrie.main 은 그것의 module로 정해진다. 즉, `require.main == module.`으로 어떤 파일이 직접 실행되는지 테스트할수 있다.  
+한 파일이 node.js로부터 직접 실행되면, requrie.main 은 그것의 module로 정해진다. 즉, `require.main === module`으로 어떤 파일이 직접 실행되는지 테스트할수 있다.  
 
 `node foo.js'`는 참이지만,  
 `require('./foo')`는 거짓이다.
