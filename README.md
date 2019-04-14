@@ -1,2 +1,2 @@
-# codesquad-step-1
-코드스쿼드 스텝1
+# codesquad
+## step1 ~~ step7
